@@ -1,5 +1,5 @@
 {
-  "name": "spotify-clone-prototype",
+  "name": "login-system",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,9 +12,9 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
     "express": "^4.21.1",
-    "jsonwebtoken": "^9.0.2",
+    "express-session": "^1.18.1",
     "sqlite3": "^5.1.7"
   }
 }
