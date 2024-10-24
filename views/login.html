@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="login-container">
+        <h1>Login to Spotify-Clone</h1>
+        <form action="/login" method="POST">
+            <!--Field for username-->
+            <label for="username">Username:</label>
+            <input type="text" name="username" placeholder="Username" required><br>
+
+            <!--Field for password-->
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="Password" required><br>
+
+            <!--Submit button-->
+            <button type="submit">Log In</button>
+        </form>
+        <br>
+        <p>Don't have an account? <a href="/register.html" class="signup-link">Sign up</a></p>
+    </div>
+
+    <!--Handling URL-based messages-->
+    <script src="/js/alerts.js"></script>
+</body>
+
+</html>

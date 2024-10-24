@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding-top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, black, rgb(50, 50, 50));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-container {
+    background-color: rgb(15, 15, 15);
+    border: 2px solid rgb(15, 15, 15);
+    padding: 60px 150px;
+    height: auto;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+label {
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 14px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(15, 15, 15);
+    border: 1px solid rgb(170, 170, 170);
+    color: white;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+    border-color: white;
+}
+
+button {
+    background-color: #1DB954;
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 12px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1ed760;
+    transform: scale(1.05);
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #1DB954;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(150, 150, 150);
+}
