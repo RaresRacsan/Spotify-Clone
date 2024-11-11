@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/styles/main.css">
@@ -8,29 +7,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>Main Page</title>
 </head>
-
 <body>
     <div class="navbar">
         <!--Spotify Icon-->
         <img src="/styles/images/icon.png" alt="Spotify Clone Icon" class="navbar-icon">
+        <button class="logout-button" onclick="window.location.href='/logout'">Logout</button>
     </div>
 
     <div class="container">
         <div class="sidebar">
-
+            <h3>Liked Songs</h3>
+            <div id="liked-songs"></div>
         </div>
         <div class="main-content">
-
+            <div class="song-card" data-song="funtime-juicewrld.mp3">
+                <h3>Fun time</h3>
+                <p>JuiceWRLD</p>
+                <button class="like-button">Like</button>
+                <button class="dislike-button">Dislike</button>
+            </div>
+            <div class="song-card" data-song="googleme-cochise.mp3">
+                <h3>GOOGLE ME</h3>
+                <p>Cochise</p>
+                <button class="like-button">Like</button>
+                <button class="dislike-button">Dislike</button>
+            </div>
+            <div class="song-card" data-song="mo-travisscott.mp3">
+                <h3>Mo</h3>
+                <p>Travis Scott</p>
+                <button class="like-button">Like</button>
+                <button class="dislike-button">Dislike</button>
+            </div>
+            <div class="song-card" data-song="timeless-playboicarti.mp3">
+                <h3>Timeless</h3>
+                <p>Playboi Carti</p>
+                <button class="like-button">Like</button>
+                <button class="dislike-button">Dislike</button>
+            </div>
+            <div class="song-card" data-song="tobey-eminem.mp3">
+                <h3>Tobey</h3>
+                <p>Eminem</p>
+                <button class="like-button">Like</button>
+                <button class="dislike-button">Dislike</button>
+            </div>
         </div>
     </div>
 
     <div class="bottom-bar">
-        <div class="control-buttons">
-            <button class="control-button" id="prev"><i class="fas fa-step-backward"></i></button>
-            <button class="play-button" id="play-pause"><i class="fas fa-play"></i></button>
-            <button class="control-button" id="next"><i class="fas fa-step-forward"></i></button>
+        <div id="current-song-info">
+            <strong id="current-song-title"></strong> - <span id="current-song-artist"></span>
         </div>
+        <audio id="audio-player" controls>
+            <source id="audio-source" src="" type="audio/mp3">
+        </audio>
     </div>
+    <script src="/js/main.js"></script>
 </body>
-
 </html>

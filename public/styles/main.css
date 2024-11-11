@@ -17,6 +17,7 @@ body {
     font-size: 14px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     line-height: 20px;
     padding: 15px 27px;
 }
@@ -24,6 +25,23 @@ body {
 .navbar-icon {
     height: 34px;
     width: auto;
+}
+
+.logout-button {
+    background-color: #1DB954;
+    color: black;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background-color: #1ed760;
+    transform: scale(1.05);
 }
 
 .container {
@@ -40,6 +58,7 @@ body {
     border: none;
     border-radius: 5px;
     margin-right: 10px;
+    color: white;
 }
 
 .main-content {
@@ -61,39 +80,54 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 0;
+    flex-direction: column;
+    padding: 10px 0;
     z-index: 1000;
 }
 
-.control-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px; 
+#current-song-info {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
 }
 
-.control-button, .play-button {
-    background: none;
-    border: none;
+.song-card {
+    background-color: rgb(40, 40, 40);
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
     cursor: pointer;
-    transition: color 0.3s;
+    text-align: center;
+    width: 250px; /* Adjust the width as needed */
+    display: inline-block; /* To place cards side by side */
+    vertical-align: top;
 }
-
-.play-button {
+.song-card h3, .song-card p {
     color: white;
-    font-size: 24px;
+    margin: 5px 0;
 }
-
-.control-button {
-    color: gray;
-    font-size: 24px;
+.song-card button {
+    background-color: #1DB954;
+    color: black;
+    font-size: 12px; /* Adjust the font size as needed */
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px;
+    font-weight: bold;
 }
-
-.control-button:hover,
-.play-button:hover {
+.song-card button:hover {
+    background-color: #1ed760;
     transform: scale(1.05);
 }
-
-.control-button:hover {
+.liked-song {
     color: white;
+    cursor: pointer;
+    margin: 5px 0;
+}
+.liked-song:hover {
+    color: #1ed760;
 }
