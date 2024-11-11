@@ -19,7 +19,7 @@ This project is a simple Spotify clone built using Node.js, Express, SQLite, and
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/spotify-clone.git
+    git clone https://github.com/RaresRacsan/Spotify-Clone.git
     cd spotify-clone
     ```
 
