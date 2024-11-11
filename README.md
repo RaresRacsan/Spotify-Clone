@@ -84,3 +84,13 @@ This project is a simple Spotify clone built using Node.js, Express, SQLite, and
 - `public/songs/`: Directory containing the MP3 files.
 - `public/styles/`: Directory containing the CSS files.
 - `views/`: Directory containing the HTML files.
+
+## Contributors
+
+I welcome contributions to this project. If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and commit them with clear and concise messages.
+4. Push your changes to your forked repository.
+5. Create a pull request to the main repository.
