@@ -39,9 +39,9 @@ This project is a simple Spotify clone built using Node.js, Express, SQLite, and
 
     ```
     project-root/
-    ├── [index.js](http://_vscodecontentref_/1)
-    ├── [package.json](http://_vscodecontentref_/2)
-    ├── [db.sqlite](http://_vscodecontentref_/3)
+    ├── index.js
+    ├── package.json
+    ├── db.sqlite
     ├── public/
     │   ├── js/
     │   │   └── main.js
@@ -52,7 +52,7 @@ This project is a simple Spotify clone built using Node.js, Express, SQLite, and
     │   │   ├── timeless-playboicarti.mp3
     │   │   └── tobey-eminem.mp3
     │   └── styles/
-    │       ├── [main.css](http://_vscodecontentref_/4)
+    │       ├── main.css
     │       ├── login.css
     │       └── register.css
     └── views/
