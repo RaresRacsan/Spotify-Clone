@@ -84,7 +84,3 @@ This project is a simple Spotify clone built using Node.js, Express, SQLite, and
 - `public/songs/`: Directory containing the MP3 files.
 - `public/styles/`: Directory containing the CSS files.
 - `views/`: Directory containing the HTML files.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
